@@ -1,0 +1,147 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background: #152733;
+
+}
+
+.container{
+width: 1140px;
+margin: 0 auto;
+
+}
+
+
+.form-t{
+
+    display: flex;
+    justify-content: center;
+}
+
+.form-t h2{
+
+font-size: 30px;
+line-height: 36px;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+margin: 40px 0px;
+text-transform: uppercase;
+
+
+}
+
+.form-t label{
+
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    font-family: arial;
+    margin-bottom: 10px;
+    
+}
+
+
+.form-t input[type=text]{
+    width: 100%;
+    padding: 10px 5px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.form-t input[type=email]{
+    width: 100%;
+    padding: 10px 5px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.form-t input[type=number]{
+    width: 100%;
+    padding: 10px 5px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.form-t input[type=date]{
+    width: 100%;
+    padding: 10px 5px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.selet{
+    margin-bottom: 15px;
+}
+
+.selet label{
+
+    display: inline;
+}
+
+.selet select{
+    width: 50%;
+    padding: 6px;
+    font-size: 16px;
+     border: none;
+    line-height: 22px;
+
+}
+
+
+.form-t input[type=submit]{
+    background: #fff;
+    padding: 10px 20px;
+    color: #000;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 22px;
+
+}
+
+.form-t input[type=reset]{
+    background: #fff;
+    padding: 10px 20px;
+    color: #000;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 22px;
+
+}
+
+.radio-l{
+    margin-bottom: 10px;
+}
+
+.radio-l label{
+
+    display: inline;
+}
+
+.wrapper{
+    padding: 50px;
+    background: rgb(244,145,23);
+    background: radial-gradient(circle, rgba(244,145,23,1) 0%, rgba(242,62,18,1) 35%, rgba(244,145,23,0.9836309523809523) 100%);
+    width: 500px;
+
+}
+
